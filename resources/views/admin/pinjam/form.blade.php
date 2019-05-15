@@ -6,8 +6,11 @@
 
     {!! Form::label('categories_id', 'Category', ['class' => 'chosen']) !!}
         {!! Form::select('categories_id', $kategori, null, ('' == 'required') ? ['class' => 'form-control', 'required' => 'required'] : ['class' => 'chosen']) !!}
-
         {!! $errors->first('categories_id', '<p class="help-block">:message</p>') !!}
+
+        <br/>
+        <br/>
+
 
 {!! Form::myInput('text', 'book_name', 'Book Name', ['required']) !!}
 

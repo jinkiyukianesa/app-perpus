@@ -4,53 +4,55 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <title>Laravel 5.5</title>
-
+ 
+        <title>PEDAL LIBRARY</title>
+ 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
-
+ 
         <!-- Styles -->
         <style>
             html, body {
+                background-image:url(img/aku3.jpg);
                 background-color: #fff;
-                color: #636b6f;
-                font-family: 'Raleway', sans-serif;
+               color: #636b6f;
+               font-family: 'Raleway', sans-serif;
                 font-weight: 100;
                 height: 100vh;
                 margin: 0;
             }
-
+ 
             .full-height {
                 height: 100vh;
             }
-
+ 
             .flex-center {
                 align-items: center;
                 display: flex;
                 justify-content: center;
             }
-
+ 
             .position-ref {
                 position: relative;
             }
-
+ 
             .top-right {
                 position: absolute;
                 right: 10px;
                 top: 18px;
             }
-
+ 
             .content {
                 text-align: center;
+                color: white;
             }
-
+ 
             .title {
                 font-size: 84px;
             }
-
+ 
             .links > a {
-                color: #636b6f;
+                color: white;
                 padding: 0 25px;
                 font-size: 12px;
                 font-weight: 600;
@@ -58,7 +60,7 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
-
+ 
             .m-b-md {
                 margin-bottom: 30px;
             }
@@ -77,18 +79,17 @@
                     @endif
                 </div>
             @endif
-
+ 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel  <b>5.5</b>
+                    <b>PEDAL LIBRARY  </b>
                 </div>
-
+ 
                 <div class="links">
-                    <a href="https://laravel.com/docs">Documentation</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <h2>Selamat Datang!</h2><br>
+                    <h3>PEDAL LIBRARY Menyediakan berbagai macam buku.<br>
+                    Silahkan melakukan Login terlebih dahulu, bagi yang belum memiliki akun<br>
+                    silahkan Registrasi pada menu yang tersedia. :)</h3>
                 </div>
             </div>
         </div>

@@ -19,9 +19,9 @@ class users extends Seeder
         $data = [];
 
         array_push($data, [
-            'name'     => 'Superadmin',
-            'email'    => 'superadmin@fake.com',
-            'password' => bcrypt('123456'),
+            'name'     => 'Edo Kurniawan',
+            'email'    => 'edo@gmail.com',
+            'password' => bcrypt('edo123'),
             'role'     => 5,
             'active'     => 1,
             'avatar'   => 'avatar1.jpg',
